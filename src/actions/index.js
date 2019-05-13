@@ -22,3 +22,15 @@ export const decrement = () => {
     type: DECREMENT
   }
 };
+
+export const incrementIfOdd = () => {
+  return {
+    type: INCREMENT
+  }
+};
+
+export const incrementAsync = () => {
+  return {
+    type: INCREMENT
+  }
+}
